@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+/* common work  */
+.btn {
+    color: rgb(231, 231, 241);
+    background-color: #4E47FF;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+.btn:hover{
+    padding: 15px;
+    background-color: yellow;
+    color: black;
+    border: black;
+}
+
+/* common work ends  */
+
+
+/* header starts  */
+.logo {
+    color: blue;
+    font-weight: 1100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.banner-content {
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.banner-content button {
+    margin-top: 50px;
+}
+
+header {
+    background-image: url("hero-bg.png");
+    background-position: center;
+
+
+}
+
+.banner {
+    max-height: 700vh;
+    height: 100vh;
+}
+/* header ends  */
+/* action starts  */
+
+.action{
+     /* background-color: #e6e6fa; */
+      display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    margin: 50px 70px;
+    border-radius: 10px;
+} 
+ .action-content{
+     align-items: center;
+     padding-top: 100px;
+     padding-right: 90px;
+}
+.action-content p{
+    color: rgb(167, 166, 166);
+    
+} 
+
+.action-img img {
+    border: 1px solid #d7d6f8;
+    border-radius: 30px;
+} 
+
+/* action ends  */
+/* productive starts  */
+.productive-container{
+    background-color:#d7d6f8 ;
+    align-items: center;
+    margin: 50px 150px;
+    padding: 30px;
+}
+.productive-container{
+     border-radius: 10px;
+}
+.productive-container h2{
+   text-align: center;
+   padding-left: 50px;
+}
+.productive-content{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.item1{
+    padding: 5px;
+    color: #4E47FF;
+}
+.item1 h1{
+    font-weight: 1000;
+}
+.item1 p{
+    color: rgb(167, 167, 167);
+    padding-right: 20px;
+    font-weight: 50;
+
+}
+
+/* productive ends  */
+/* review starts  */
+.review{
+      background-color: whitesmoke;
+      padding: 60px;
+}
+.review-title h2{
+    text-align: center;
+    padding-top: 20px;
+  
+
+}
+ .review-content{
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+ .part1{
+     background-color: white;
+     padding: 20px;
+     margin-left: 30px;
+     border-radius: 30px;
+ }
+ .part1 .small img{
+     border-radius: 30px;
+ }
+  .part1 .small {
+    display: flex;
+    justify-content: left;
+
+  }
+  .part1 .small .small1{
+     padding-left: 5px;
+  }
+
+
+/* review ends */
+/* newsletter starts  */
+.newsletter{
+    background-color: #d7d6f8;
+     display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 0 100px;
+}
+.display-left h1{
+    /* text-align: center;
+    align-items: center; */
+     margin-top: 100px;
+     padding-right: 100px;
+    font-weight: 900;
+    
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+}
+input {
+    padding: 5px;
+}
+input , textarea {
+    border: 1px solid #d7d6f8;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+textarea{
+    padding: 10px;
+    color: rgb(211, 210, 210);
+    text-decoration: none;
+}
+ .newsletter button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* newsletter ends  */
+/* footer starts  */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top:20px ;
+}
+footer h1{
+    text-align: center;
+}
+footer .footer-container .content{
+    text-align: center;
+}
+footer .footer-container .content a {
+    color: rgb(167, 164, 164);
+    padding: 10px;
+}
+footer .footer-container  p {
+    color: rgb(167, 164, 164);
+}
+/* footer ends  */
